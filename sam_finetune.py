@@ -142,7 +142,7 @@ def main():
         print(f"EPOCH: {epoch}  Mean loss: {mean(epoch_losses)}")
         torch.save(
             sam_model.state_dict(),
-            f"/content/Detect-AnyShadow/checkpoints/chk_sam/{epoch}.pth",
+            f"/content/Detect-AnyShadow/checkpoints/{epoch}.pth",
         )
 
 

@@ -6,6 +6,8 @@ File Modification Repository for colab
 
 Dataset download and unzip code for google drive to colab use
 
+Finally, the free gpu time was not enough and local training was used instead.
+
 ## Source
 
 [Detect-AnyShadow](https://github.com/harrytea/Detect-AnyShadow)
